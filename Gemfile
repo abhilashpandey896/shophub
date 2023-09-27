@@ -9,6 +9,7 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 gem 'will_paginate', '~> 3.3'
+gem 'razorpay'
 
 # Use sqlite3 as the database for Active Record
 
@@ -81,3 +82,4 @@ gem 'cancancan'
 group :production do 
   gem 'pg'
 end
+gem "httparty", "~> 0.21.0"

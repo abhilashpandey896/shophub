@@ -17,4 +17,4 @@ Rails.application.routes.draw do
     post 'carts/:id/add' => "carts#add", as: "cart_add"
     post 'carts/:id/reduce' => "carts#reduce", as: "cart_reduce"
 end
-   
+     
